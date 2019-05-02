@@ -6,10 +6,10 @@ brew install tree
 brew install ripgrep
 brew install git
 brew install ansible
-brew install java
 brew install docker
 
 # Install MacOS Applications
+brew cask install java
 brew cask install google-chrome
 brew cask install firefox
 brew cask install sublime-text

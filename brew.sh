@@ -12,12 +12,10 @@ brew install docker
 brew cask install java
 brew cask install google-chrome
 brew cask install firefox
-brew cask install sublime-text
 brew cask install visual-studio-code
 brew cask install virtualbox
 brew cask install sourcetree
 brew cask install discord
-brew cask install skype
 brew cask install vlc
 brew cask install hyperdock
 brew cask install divvy

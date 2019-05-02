@@ -32,7 +32,7 @@ alias sudo='sudo '
 
 #fixes
 # Sadly I need to use this to access artifactory
-mvn='mvn -Dmaven.wagon.http.ssl.insecure=true'
+alias mvn='mvn -Dmaven.wagon.http.ssl.insecure=true'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 # alias update_system='sudo softwareupdate -i -a'

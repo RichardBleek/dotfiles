@@ -4,6 +4,10 @@
 brew install python
 brew install tree
 brew install ripgrep
+brew install git
+brew install ansible
+brew install java
+brew install docker
 
 # Install MacOS Applications
 brew cask install google-chrome

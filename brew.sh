@@ -6,10 +6,10 @@ brew install tree
 brew install ripgrep
 brew install git
 brew install ansible
-brew install docker
 brew install jenv
 
 # Install MacOS Applications
+brew cask install docker
 brew cask install java
 brew cask install google-chrome
 brew cask install firefox

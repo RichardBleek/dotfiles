@@ -9,6 +9,12 @@ alias py='python3'
 alias python='python3'
 alias pip='pip3'
 
+# Mvn
+alias mvn-set-default='cp ~/.m2/settings.xml.default ~/.m2/settings.xml'
+alias mvn-set-ing='cp ~/.m2/settings.xml.ing ~/.m2/settings.xml'
+#fix - sadly I need to use this to access artifactory
+alias mvn='mvn -Dmaven.wagon.http.ssl.insecure=true'
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
@@ -25,7 +31,6 @@ export LS_COLORS='no=00:fi=00:di=04;35:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 
 export LSCOLORS='Gxfxcxdxbxegedabagacad'
 
-
 # Always enable colored `grep` output
 # Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
 alias grep='grep --color=auto'
@@ -35,9 +40,6 @@ alias egrep='egrep --color=auto'
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
-#Mvn fixes
-# Sadly I need to use this to access artifactory
-alias mvn='mvn -Dmaven.wagon.http.ssl.insecure=true'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 # alias update_system='sudo softwareupdate -i -a'

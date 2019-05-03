@@ -3,6 +3,7 @@ alias ch='history | grep "git commit"'
 alias hg='history | grep'
 alias ll='ls -la'
 alias fg='ll | grep'
+alias py='python3'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

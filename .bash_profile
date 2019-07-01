@@ -15,3 +15,6 @@ fi
 
 # Add jenv
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+
+# Set graal path
+export GRAALVM_HOME=/Library/Java/JavaVirtualMachines/graalvm-ce-1.0.0-rc16/Contents/Home/

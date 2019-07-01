@@ -2,7 +2,6 @@
 alias ch='history | grep "git commit"'
 alias hg='history | grep'
 alias ll='ls -la'
-alias fg='ll | grep'
 
 # Python
 alias py='python3'
